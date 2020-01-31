@@ -1,0 +1,25 @@
+{
+    "name": "wdkta3/jp-area",
+    "description": "laravel-jp-area",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wada Kouta",
+            "email": "wada.seed@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8|^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "JpArea\\": "src/",
+            "JpAreaTest\\": "tests/"
+        }
+    }
+}
